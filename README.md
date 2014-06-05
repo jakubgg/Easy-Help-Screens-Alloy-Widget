@@ -11,9 +11,14 @@ To see the preview of the widget import this project into Titanium Studio and ru
 
 Or have a look at the screenshots below:
 
-- screen
-- screen
-- screen
+<img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-iPhone01.jpeg" width="280px">
+<img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-iPhone02.jpeg" width="280px">
+<img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-iPhone03.jpeg" width="280px">
+
+<img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-Android01.jpeg" width="280px">
+<img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-Android02.jpeg" width="280px">
+
+<img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-iPad01.jpeg" width="280px">
 
 ## Usage
 
@@ -207,4 +212,3 @@ Titanium is Copyright (c) 2008-2013 by Appcelerator, Inc. All Rights Reserved.
 
 Titanium is licensed under the Apache Public License (Version 2). Please
 see the LICENSE file for the full license.
-
