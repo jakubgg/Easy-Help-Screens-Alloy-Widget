@@ -11,14 +11,14 @@ To see the preview of the widget import this project into Titanium Studio and ru
 
 Or have a look at the screenshots below:
 
-<img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-iPhone01.jpeg" width="280px">
-<img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-iPhone02.jpeg" width="280px">
-<img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-iPhone03.jpeg" width="280px">
+<img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-iPhone01.jpeg" width="240px">
+<img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-iPhone02.jpeg" width="240px">
+<img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-iPhone03.jpeg" width="240px">
 
-<img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-Android01.jpeg" width="280px">
-<img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-Android02.jpeg" width="280px">
+<img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-Android01.jpeg" width="240px">
+<img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-Android02.jpeg" width="240px">
 
-<img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-iPad01.jpeg" width="280px">
+<img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-iPad01.jpeg" width="240px">
 
 ## Usage
 
