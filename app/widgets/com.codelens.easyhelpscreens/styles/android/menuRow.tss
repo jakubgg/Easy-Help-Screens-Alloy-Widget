@@ -1,0 +1,35 @@
+"#rowWrapper": {
+    layout: "composite",
+    backgroundColor: "#AFE0F6"
+},
+"#rowWrapper[formFactor=tablet]": {
+	top: "10dp",
+    bottom: "10dp",
+	width: "90%",
+    height: "73dp"
+},
+"#rowWrapper[formFactor=handheld]": {
+	top: "7dp",
+    bottom: "7dp",
+	width: Ti.UI.FILL,
+    height: "45dp"
+},
+
+".menuRowLabel" : {
+	left: "15dp",
+  	height: Ti.UI.FILL,
+    width: Ti.UI.FILL,
+    color: "#000"
+},
+".menuRowLabel[formFactor=tablet]": {
+    font: {
+        fontFamily: "Roboto Bold",
+        fontSize:"35sp"
+    }
+},
+".menuRowLabel[formFactor=handheld]": {
+    font: {
+        fontFamily: "Roboto Bold",
+        fontSize:"18sp"
+    }
+}

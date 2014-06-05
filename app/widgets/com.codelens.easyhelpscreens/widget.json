@@ -1,0 +1,13 @@
+{
+	"id": "com.codelens.easyhelpscreens",
+	"name": "Easy Help Screens",
+	"description" : "Easy help screens - provide almost drag and drop solution for help screens in your app.",
+	"author": "Jakub Gadkowski",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2014",
+	"license":"MIT Licence",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"",
+	"platforms":"android,ios,mobileweb"
+}

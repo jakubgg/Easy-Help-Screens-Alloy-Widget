@@ -1,0 +1,35 @@
+"#helpImages" : {
+	layout: "horizontal",
+  	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundColor: "#fff"
+},
+"#closeScreen" : {
+	width: Ti.UI.FILL,
+	backgroundColor: "#000",
+	layout: "composite"
+},
+"#closeScreen[formFactor=tablet]": {
+	height: "5%"
+},
+"#closeScreen[formFactor=handheld]": {
+	height: "8%"
+},
+"#closeLabel" : {
+	left: "5%",
+	width: Ti.UI.SIZE,
+	height: Ti.UI.FILL,
+	color: "#007aff"
+},
+
+"#scrollableView": {
+	backgroundColor: "#000",
+	width: Ti.UI.FILL,
+	showPagingControl: true
+},
+"#scrollableView[formFactor=tablet]": {
+	height: "95%"
+},
+"#scrollableView[formFactor=handheld]": {
+	height: "92%"
+}

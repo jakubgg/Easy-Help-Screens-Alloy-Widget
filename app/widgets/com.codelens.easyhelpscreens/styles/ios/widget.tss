@@ -1,0 +1,7 @@
+"#scrollView": {
+	layout: "vertical",
+    backgroundColor: "transparent",
+    showVerticalScrollIndicator: true,
+    top: "20dp",
+    height: Ti.UI.FILL
+}

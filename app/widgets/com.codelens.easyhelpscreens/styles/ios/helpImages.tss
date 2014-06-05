@@ -1,0 +1,16 @@
+"#helpImages" : {
+    top:'20dp',
+	statusBarStyle: Titanium.UI.iPhone.StatusBar.OPAQUE_BLACK
+},
+"#closeLabel[formFactor=tablet]": {
+    font: {
+        fontFamily: "HelveticaNeue-Medium",
+        fontSize:18
+    }
+},
+"#closeLabel[formFactor=handheld]": {
+    font: {
+        fontFamily: "HelveticaNeue-Medium",
+        fontSize:18
+    }
+}

@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="helpImages" class="container">
+		<View id="closeScreen">
+			<Label id="closeLabel" text="Close">	
+		</View>
+		<ScrollableView id="scrollableView" showPagingControl="true">
+		</ScrollableView>
+	</Window>
+</Alloy>

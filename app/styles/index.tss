@@ -1,0 +1,5 @@
+"#helpScreen" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    backgroundColor: "#e4f4fa"
+}

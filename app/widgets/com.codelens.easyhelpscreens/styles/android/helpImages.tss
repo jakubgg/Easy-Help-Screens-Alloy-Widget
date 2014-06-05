@@ -1,0 +1,12 @@
+"#closeLabel[formFactor=tablet]": {
+    font: {
+        fontFamily: "Roboto Medium",
+        fontSize:"22sp"
+    }
+},
+"#closeLabel[formFactor=handheld]": {
+    font: {
+        fontFamily: "Roboto Medium",
+        fontSize:"18sp"
+    }
+}

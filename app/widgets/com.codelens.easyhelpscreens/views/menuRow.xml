@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="rowWrapper">
+		<Label id="menuItem" class="menuRowLabel" screenID=""></Label>
+	</View>
+</Alloy>
