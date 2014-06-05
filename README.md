@@ -17,7 +17,6 @@ Or have a look at the screenshots below:
 
 <img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-Android01.jpeg" width="240px">
 <img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-Android02.jpeg" width="240px">
-
 <img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-iPad01.jpeg" width="240px">
 
 ## Usage
