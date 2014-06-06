@@ -1,7 +1,7 @@
 /*************************
 **         Init         **
 **************************/
-/* global WPATH: true, Widget: false */
+/* global WPATH: true, Widget: false, require: false, $: true, Ti: true  */
 'use strict';
 var lib = require(WPATH('screens'));
 
@@ -31,12 +31,12 @@ $.helpMenu = {
 				d.platform = lib.helpScreens.android.support;
 			break;
 			case 'iphone':
-		    	d.screens = lib.helpScreens.ios.iphone;
-		    	d.platform = lib.helpScreens.ios.support;
+				d.screens = lib.helpScreens.ios.iphone;
+				d.platform = lib.helpScreens.ios.support;
 			break;
-		    case 'ipad' :
-		    	d.screens = lib.helpScreens.ios.ipad;
-		    	d.platform = lib.helpScreens.ios.support;
+			case 'ipad' :
+				d.screens = lib.helpScreens.ios.ipad;
+				d.platform = lib.helpScreens.ios.support;
 			break;
 			default:
 				d.screens = lib.helpScreens.ios.iphone;
@@ -130,10 +130,10 @@ $.helpMenu = {
 		d.scene.children.forEach(function(el){
 			if (el.children[0].screenID == e.source.screenID){
 				el.animate({
-		            backgroundColor: '#fff',
-		            duration: 250,
-		            autoreverse: true
-	        	});
+					backgroundColor: '#fff',
+					duration: 250,
+					autoreverse: true
+				});
 			}
 		});
 	},
@@ -175,12 +175,24 @@ $.helpMenu = {
 		var d = this.defaults;
 		var emailDialog = Ti.UI.createEmailDialog();
 		if (emailDialog.isSupported() === true) {
-    		emailDialog.subject = 'Help...';
-    		emailDialog.toRecipients = [d.platform.email];
-    		emailDialog.messageBody = d.platform.messageBody || 'Type your message here...';
-    		emailDialog.open();
+
+			var model = Ti.Platform.model;
+			var name = Ti.Platform.name;
+			var version = Ti.Platform.version;
+			var appVersion = Ti.App.version;
+
+			emailDialog.subject = 'Help...';
+			emailDialog.toRecipients = [d.platform.email];
+			emailDialog.messageBody = d.platform.messageBody || 'Type your message here...';
+			emailDialog.messageBody += '\n\n\n\n';
+			emailDialog.messageBody += '-----\n';
+			emailDialog.messageBody += 'Support Info:\n';
+			emailDialog.messageBody += model + ' ' + name + ' ' + version + '\n';
+			emailDialog.messageBody += 'App version: ' + appVersion;
+
+			emailDialog.open();
 		}else {
-		    Ti.UI.createAlertDialog({ message: 'Please configure your email app first.' }).show();
+			Ti.UI.createAlertDialog({ message: 'Please configure your email app first.' }).show();
 		}
 	},
 	/**

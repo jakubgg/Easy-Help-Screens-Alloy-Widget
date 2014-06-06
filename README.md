@@ -166,6 +166,9 @@ Email subject and `Type your message here...` are located in `widget.js` at line
 * Move support items names to the config file
 * Move email subject and text to the config file
 
+## Changelog
+1.0.1 Added Support info to the email body
+1.0 Initial release
 
 # Author
 Jakub Gadkowski
