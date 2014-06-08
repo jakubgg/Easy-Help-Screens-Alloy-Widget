@@ -1,6 +1,6 @@
-# Easy Help Screens Alloy Widget 
+# Easy Help Screens Alloy Widget [![Appcelerator Titanium](http://www-static.appcelerator.com/badges/titanium-git-badge-sq.png)](http://appcelerator.com/titanium/) [![Appcelerator Alloy](http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png)](http://appcelerator.com/alloy/)
 
-This is a an example project for Easy Help Screens Alloy Widget.
+This is a an example project for Easy Help Screens Widget for [Alloy](http://projects.appcelerator.com/alloy/docs/Alloy-bootstrap/index.html) MVC framework of [Appcelerator](http://www.appcelerator.com)'s [Titanium](http://www.appcelerator.com/platform) platform.
 
 ## Purpose
 To provide easy, drag and drop solution for creating help screens and support options for your Titanium Alloy app.
@@ -19,7 +19,14 @@ Or have a look at the screenshots below:
 <img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-Android02.jpeg" width="240px">
 <img src="https://github.com/jakubgg/Easy-Help-Screens-Alloy-Widget/raw/master/readme_images/EasyHelpScreen-iPad01.jpeg" width="240px">
 
-## Usage
+## Usage [![gitTio](http://gitt.io/badge.png)](http://gitt.io/component/com.codelens.easyhelpscreens)
+
+### Get it from GitTio
+You can get it from [gitTio](http://gitt.io/) using [gitTio CLI](http://gitt.io/cli):
+
+`$ gittio install com.codelens.easyhelpscreens`
+
+### Get it from Github
 
 Grab the `com.codelens.easyhelpscreens` widget from the `widgets` folder and drop it in your `app/widgets/` folder.
 
@@ -167,8 +174,9 @@ Email subject and `Type your message here...` are located in `widget.js` at line
 * Move email subject and text to the config file
 
 ## Changelog
-1.0.1 Added Support info to the email body
-1.0 Initial release
+
+- 1.0.1 Added Support info to the email body
+- 1.0 Initial release
 
 # Author
 Jakub Gadkowski
